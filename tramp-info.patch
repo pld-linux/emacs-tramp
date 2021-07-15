@@ -1,0 +1,15 @@
+--- tramp-2.5.1/texi/tramp.texi.orig	2021-06-13 08:56:32.000000000 +0200
++++ tramp-2.5.1/texi/tramp.texi	2021-07-15 20:36:04.929829840 +0200
+@@ -28,10 +28,9 @@
+ @end copying
+ 
+ @c Entries for @command{install-info} to use.  We cannot use @value{tramp}.
+-@dircategory Emacs network features
++@dircategory Emacs network features:
+ @direntry
+-* Tramp: (tramp).               Transparent Remote Access, Multiple Protocol
+-                                  Emacs remote file access via ssh and scp.
++* Tramp: (tramp).			Transparent Remote Access, Multiple Protocol
+ @end direntry
+ 
+ @titlepage
