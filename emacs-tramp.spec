@@ -2,12 +2,12 @@
 Summary:	Transparent Remote Access for Emacs
 Summary(pl.UTF-8):	Przezroczysty zdalny dostęp do plików dla Emacsa
 Name:		emacs-tramp
-Version:	2.5.1
+Version:	2.5.4
 Release:	0.1
 License:	GPL v3+
 Group:		Applications/Editors
 Source0:	https://ftp.gnu.org/gnu/tramp/tramp-%{version}.tar.gz
-# Source0-md5:	d98b79d4d7d6f659e869866207e3b237
+# Source0-md5:	2f26425b3728e83c3e83db34af602ba0
 Patch0:		tramp-info.patch
 URL:		http://www.gnu.org/software/tramp/
 BuildRequires:	emacs >= 25.1
