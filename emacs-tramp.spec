@@ -36,7 +36,7 @@ albo podobnie działających programów, takich jak "ssh"/"scp".
 
 %prep
 %setup -q -n tramp-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %configure
